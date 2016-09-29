@@ -1,6 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdint.h>
+#include <time.h>
 
-int clz_iter( uint32_t x );
-int clz_binSearch( uint32_t );
-int clz_byteShift( uint32_t );
+uint8_t clz_iter( uint32_t x);
+uint8_t clz_binary_search( uint32_t x);
+uint8_t clz_recur( uint32_t x);
+uint8_t clz_byte_shift( uint32_t x);
+uint8_t clz_harley( uint32_t x);
+
+
+
